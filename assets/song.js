@@ -15,7 +15,7 @@ $(document).ready(function() {
 });
 
 
-SC.stream('/tracks/85374179', function(sound) {
+SC.stream('/tracks/167954551', function(sound) {
  $('#start2').click(function(e) {
    e.preventDefault();
    sound.start();
@@ -105,7 +105,7 @@ SC.stream('/tracks/85374179', function(sound) {
 
 
 
- SC.stream('/tracks/184922621', function(sound) {
+ SC.stream('/tracks/317969719', function(sound) {
   $('#start8').click(function(e) {
     e.preventDefault();
     sound.start();
