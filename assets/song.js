@@ -3,7 +3,7 @@ SC.initialize({
 });
 
 $(document).ready(function() {
- SC.stream('/tracks/85374179', function(sound) {
+SC.stream('/tracks/85374179', function(sound) {
   $('#start1').click(function(e) {
     e.preventDefault();
     sound.start();
@@ -16,31 +16,19 @@ $(document).ready(function() {
 
 
 SC.stream('/tracks/167954551', function(sound) {
- $('#start2').click(function(e) {
-   e.preventDefault();
-   sound.start();
- });
- $('#stop2').click(function(e) {
-   e.preventDefault();
-   sound.stop();
- });
+  $('#start2').click(function(e) {
+    e.preventDefault();
+    sound.start();
+  });
+  $('#stop2').click(function(e) {
+    e.preventDefault();
+    sound.stop();
+  });
 });
 
 
-//  SC.stream('/tracks/79082412', function(sound) {
-//   $('#start2').click(function(e) {
-//     e.preventDefault();
-//     sound.start();
-//   });
-//   $('#stop2').click(function(e) {
-//     e.preventDefault();
-//     sound.stop();
-//   });
-// });
 
-
-
- SC.stream('/tracks/240185122', function(sound) {
+SC.stream('/tracks/240185122', function(sound) {
   $('#start3').click(function(e) {
     e.preventDefault();
     sound.start();
@@ -52,8 +40,7 @@ SC.stream('/tracks/167954551', function(sound) {
 });
 
 
-
- SC.stream('/tracks/142308376', function(sound) {
+SC.stream('/tracks/142308376', function(sound) {
   $('#start4').click(function(e) {
     e.preventDefault();
     sound.start();
@@ -66,7 +53,7 @@ SC.stream('/tracks/167954551', function(sound) {
 
 
 
- SC.stream('/tracks/79105406', function(sound) {
+SC.stream('/tracks/272819930', function(sound) {
   $('#start5').click(function(e) {
     e.preventDefault();
     sound.start();
@@ -78,8 +65,7 @@ SC.stream('/tracks/167954551', function(sound) {
 });
 
 
-
- SC.stream('/tracks/272819930', function(sound) {
+SC.stream('/tracks/317969719', function(sound) {
   $('#start6').click(function(e) {
     e.preventDefault();
     sound.start();
@@ -91,8 +77,7 @@ SC.stream('/tracks/167954551', function(sound) {
 });
 
 
-
- SC.stream('/tracks/184922621', function(sound) {
+SC.stream('/tracks/168179704', function(sound) {
   $('#start7').click(function(e) {
     e.preventDefault();
     sound.start();
@@ -104,8 +89,7 @@ SC.stream('/tracks/167954551', function(sound) {
 });
 
 
-
- SC.stream('/tracks/317969719', function(sound) {
+SC.stream('/tracks/173647504', function(sound) {
   $('#start8').click(function(e) {
     e.preventDefault();
     sound.start();
@@ -115,57 +99,4 @@ SC.stream('/tracks/167954551', function(sound) {
     sound.stop();
   });
 });
-
-
-
- SC.stream('/tracks/309607440', function(sound) {
-  $('#start9').click(function(e) {
-    e.preventDefault();
-    sound.start();
-  });
-  $('#stop9').click(function(e) {
-    e.preventDefault();
-    sound.stop();
-  });
-});
-
-
-
- SC.stream('/tracks/298828514', function(sound) {
-  $('#start10').click(function(e) {
-    e.preventDefault();
-    sound.start();
-  });
-  $('#stop10').click(function(e) {
-    e.preventDefault();
-    sound.stop();
-  });
-});
-
-
-
- SC.stream('/tracks/173647504', function(sound) {
-  $('#start11').click(function(e) {
-    e.preventDefault();
-    sound.start();
-  });
-  $('#stop11').click(function(e) {
-    e.preventDefault();
-    sound.stop();
-  });
-});
-
-
-
- SC.stream('/tracks/168179704', function(sound) {
-  $('#start12').click(function(e) {
-    e.preventDefault();
-    sound.start();
-  });
-  $('#stop12').click(function(e) {
-    e.preventDefault();
-    sound.stop();
-  });
-});
-
 });
